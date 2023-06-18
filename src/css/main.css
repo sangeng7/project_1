@@ -1,0 +1,545 @@
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li a {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 1140px;
+  }
+}
+.Banner {
+  background: url("https://powernode.wttechdesign.com/wp-content/uploads/2022/09/hero-18.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.Banner .nav-bg {
+  background: transparent;
+  z-index: 999;
+}
+.Banner .nav-bg .navbar {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.Banner .container-fluid {
+  line-height: 70px;
+}
+.Banner .container-fluid .navbar-brand {
+  width: 20%;
+}
+.Banner .container-fluid .navbar-brand .logo-1 {
+  width: 80%;
+}
+.Banner .container-fluid .navbar-brand .logo-2 {
+  display: none;
+  width: 80%;
+}
+.Banner .container-fluid .nav-btn {
+  padding: 9px 34px;
+  font-size: 16px;
+  margin-left: 25px;
+  border-color: white;
+}
+.Banner .container-fluid .nav-btn:hover {
+  background-color: #0080FF;
+  border-color: #0080FF;
+}
+.Banner .container-fluid .nav-item a {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.Banner .banner-text {
+  padding: 50px 0 70px 0;
+}
+.Banner .banner-text-all h5 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.Banner .banner-text-all h2 {
+  font-size: 4.6875rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.Banner .banner-text-all h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.Banner .banner-text-all button {
+  background-color: #0080FF;
+  font-size: 18px;
+  padding: 10px 34px;
+  margin-bottom: 30px;
+}
+.Banner .banner-text-all button:hover {
+  background-color: transparent;
+  border-color: white;
+}
+
+.brands {
+  background-color: #FAFAFA;
+  padding: 70px 0;
+}
+.brands .owl-dots {
+  display: none;
+}
+
+.services {
+  padding: 80px 0 40px 0;
+}
+.services-heading {
+  width: 70%;
+  padding-bottom: 35px;
+}
+.services-heading h2 {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+.services-heading p {
+  font-size: 1.25rem;
+  color: #757575;
+}
+.services .card .card-img {
+  overflow: hidden;
+}
+.services .card .card-img img {
+  border-radius: 0;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.services .card .card-img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.services .card .card-body {
+  padding: 30px 14px 30px 14px;
+}
+.services .card .card-body .card-title {
+  font-size: 1.25rem;
+}
+.services .card .card-body .card-text {
+  font-size: 1.125rem;
+  color: #757575;
+}
+
+.about {
+  background-color: #244B9A;
+  overflow: hidden;
+}
+.about-text {
+  padding: 0px 60px 0 15px;
+}
+.about-text h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.about-text h3 {
+  font-size: 2.7rem;
+}
+.about-text .about-btn {
+  background-color: #244B9A;
+  border-color: white;
+  color: white;
+  padding: 11px 34px;
+  font-size: 18px;
+}
+.about-text .about-btn:hover {
+  background-color: #0080FF;
+  border-color: #0080FF;
+}
+.about-img {
+  max-height: 720px;
+  width: 100%;
+}
+
+.experience {
+  padding: 100px 0 100px 0;
+}
+.experience-text h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #A2A2A2;
+}
+.experience-text h3 {
+  font-size: 2.7rem;
+  padding: 20px 0 20px 0;
+}
+.experience-text p {
+  color: #757575;
+  font-size: 18px;
+}
+.experience-text button {
+  background-color: #eee;
+  color: #666;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.experience-text button:hover {
+  background-color: #0080FF;
+  color: #FFF;
+}
+.experience .exc-services {
+  padding: 110px 0 20px 0;
+}
+.experience .exc-services-heading {
+  width: 60%;
+}
+.experience .exc-services-heading h3 {
+  font-size: 2.7rem;
+  padding: 20px;
+}
+.experience .exc-services-heading p {
+  font-size: 18px;
+  color: #A2A2A2;
+}
+.experience .exc-services-card {
+  padding: 60px 0 60px 0;
+}
+.experience .exc-services-card .exc-services-card-inner {
+  background-color: #F8F8FB;
+  padding: 50px 35px;
+}
+.experience .exc-services-card .exc-services-card-inner img {
+  width: 30%;
+  padding-bottom: 20px;
+}
+.experience .exc-services-card .exc-services-card-inner p {
+  color: #757575;
+  font-size: 1.0625rem;
+}
+
+.choose-heading {
+  width: 70%;
+}
+.choose-heading h5 {
+  color: #A2A2A2;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding-bottom: 18px;
+}
+.choose-heading h3 {
+  font-size: 2.7rem;
+  padding-bottom: 18px;
+}
+.choose-heading p {
+  font-size: 18px;
+  color: #757575;
+  padding-bottom: 18px;
+}
+.choose-card {
+  margin: 60px 0 60px 0;
+  border: 1px solid #ddd;
+}
+.choose-card .choose-card-inner {
+  padding: 60px 35px;
+  background-color: #F8F8FB;
+}
+.choose-card .choose-card-inner img {
+  width: 35%;
+}
+.choose-card .choose-card-inner-text p {
+  color: #666;
+}
+.choose-card .choose-border-r {
+  border-right: 1px solid #ddd;
+}
+.choose-card .choose-border-b {
+  border-bottom: 1px solid #ddd;
+}
+.choose-footer {
+  padding-bottom: 60px;
+}
+.choose-footer p {
+  font-size: 20px;
+  color: #757575;
+}
+
+.approach-heading {
+  width: 60%;
+}
+.approach-heading h5 {
+  color: #A2A2A2;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding-bottom: 18px;
+}
+.approach-heading h3 {
+  font-size: 2.7rem;
+  padding-bottom: 18px;
+}
+.approach-heading p {
+  font-size: 18px;
+  color: #757575;
+  padding-bottom: 18px;
+}
+.approach-img-text {
+  background: url("https://powernode.wttechdesign.com/wp-content/uploads/2022/08/bg-01.jpg");
+  background-size: cover;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 40%;
+  padding: 60px 50px;
+  left: 16%;
+  bottom: 0;
+}
+.approach-img-text h3 {
+  font-size: 2rem;
+}
+.approach-img-text p {
+  font-size: 18px;
+}
+
+.feedback {
+  padding: 60px 0 60px 0;
+}
+.feedback-heading {
+  width: 60%;
+}
+.feedback-heading h3 {
+  font-size: 3.125rem;
+  padding-bottom: 18px;
+}
+.feedback-heading p {
+  font-size: 20px;
+  color: #757575;
+}
+.feedback-card {
+  background-color: #fafafa;
+  padding: 40px 30px;
+  margin: 0 15px 40px;
+}
+.feedback-card p {
+  font-size: 18px;
+  color: #666;
+}
+.feedback-card ul li {
+  list-style: none !important;
+}
+
+.video {
+  background: url("https://powernode.wttechdesign.com/wp-content/uploads/2022/09/video-2-cars.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+.video-text {
+  width: 35%;
+}
+.video-text h3 {
+  font-size: 3.125rem;
+  padding-bottom: 30px;
+}
+
+.questions {
+  padding: 100px 0 80px 0;
+  background-color: #FAFAFA;
+}
+.questions-heading {
+  width: 50%;
+}
+.questions-heading h2 {
+  font-size: 3.125rem;
+  padding-bottom: 30px;
+}
+.questions-heading p {
+  color: #666;
+  padding-bottom: 30px;
+}
+.questions-para h4 {
+  padding-bottom: 12px;
+}
+.questions-para p {
+  font-size: 18px;
+  color: #757575;
+}
+.questions-para ul {
+  margin-left: 14px;
+}
+.questions-para ul li {
+  color: #757575;
+}
+.questions-contact {
+  width: 80%;
+  padding: 50px 60px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.05);
+          box-shadow: 0 5px 10px 0 rgba(10, 10, 10, 0.05);
+}
+.questions-contact h6 {
+  width: 75%;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.questions-contact button {
+  background-color: #0080FF;
+  color: #FFF;
+  font-size: 18px;
+  padding: 13px 32px;
+}
+.questions-contact button:hover {
+  border: 1px solid black;
+}
+
+.address {
+  background-color: #314150;
+  padding: 50px 0;
+}
+.address ul {
+  list-style: none;
+}
+.address ul li {
+  font-size: 1.0625rem;
+}
+
+.footer-top {
+  padding: 50px 0;
+  border-bottom: 1px solid #eee;
+}
+.footer-top-left p {
+  font-size: 1.15rem;
+  color: #4a4c4c;
+  margin: 20px 0;
+}
+.footer-top-mid h5 {
+  font-size: 1.3rem;
+  margin: 8px 0 20px 0;
+}
+.footer-top-mid ul {
+  list-style: none;
+}
+.footer-top-mid ul li {
+  color: #4a4c4c;
+  margin-bottom: 10px;
+}
+.footer-top-right h5 {
+  font-size: 1.3rem;
+  margin: 8px 0 20px 0;
+}
+.footer-top-right p {
+  font-size: 1.15rem;
+  color: #4a4c4c;
+  margin-bottom: 15px;
+}
+.footer-top-right .footer-btn input {
+  padding: 0 15px;
+  height: 45px;
+  border: 1px solid #ccc;
+  border-right: none;
+  width: 80%;
+}
+.footer-top-right .footer-btn span {
+  height: 45px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.footer-top-right .footer-btn span i {
+  font-size: 26px;
+  font-weight: 700;
+}
+.footer-bottom {
+  padding: 30px 0;
+}
+.footer-bottom-left p {
+  font-size: 16px;
+  color: #4a4c4c;
+  margin: 0;
+}
+.footer-bottom-right .social-icons {
+  color: #4a4c4c;
+}
+.footer-bottom-right .social-icons i {
+  font-size: 18px;
+}
+.footer-bottom-right .social-icons p {
+  font-size: 16px;
+  margin: 0;
+}
+.footer-bottom-right .social-icons p:hover {
+  color: #0080FF;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+}
+.scrollTop button {
+  padding: 9px 13px;
+  background-color: rgba(10, 10, 10, 0.25);
+  font-size: 18px;
+  font-weight: bold;
+}
+.scrollTop button:hover {
+  background-color: #0080FF;
+}
+.scrollTop button a {
+  color: white;
+}
+
+.sticky {
+  position: sticky;
+  background-color: #fff !important;
+  z-index: 99;
+  -webkit-animation: slide 1s ease-in-out forwards;
+          animation: slide 1s ease-in-out forwards;
+}
+@-webkit-keyframes slide {
+  from {
+    top: -90px;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes slide {
+  from {
+    top: -90px;
+  }
+  to {
+    top: 0;
+  }
+}
+.sticky .navbar {
+  padding: 0 !important;
+}
+.sticky .navbar .nav-item a {
+  color: #000 !important;
+}
+.sticky .navbar .nav-btn {
+  color: #000 !important;
+  border-color: #000 !important;
+}
+.sticky .navbar .nav-btn:hover {
+  background-color: #0080FF !important;
+  border-color: #0080FF !important;
+  color: white !important;
+}/*# sourceMappingURL=main.css.map */

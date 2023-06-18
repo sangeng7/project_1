@@ -1,0 +1,598 @@
+@import "../breakpoints";
+
+@include xs{
+    .banner {
+        .navbar {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .container-fluid {
+                line-height: 0px;
+
+                .navbar-brand {
+                    width: 48%;
+                    max-height: 40px;
+                }
+            }
+        }
+        &-text{
+            padding: 35px 0 60px 0;
+            h3{
+                font-size: 1.8rem;
+            }
+            h6{
+                padding-bottom: 8px;
+            }
+        }
+    }
+    
+    .about{
+        &-text{
+            h5{
+                font-size: 0.975rem;
+            }
+            h3{
+                font-size: 1.7rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+            button{
+                font-size: 15px;
+                padding: 8px 25px;
+            }
+        }
+        &-footer{
+            width: 100%;
+            p{
+                font-size: 1.125rem;
+            }
+        }
+    }
+
+    .features{
+        text-align: center;
+        &-icon{
+            img{
+                width: 18%;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .choose{
+        &-heading{
+            width: 100%;
+        }
+        h5{
+            font-size: 1rem;
+        }
+        h3{
+            font-size: 1.8rem;
+        }
+        &-card{
+            margin: 60px 0 40px 0;
+            &-inner{
+                padding: 40px 25px !important;
+                img{
+                    padding-bottom: 15px;
+                    width: 18% !important;
+                }
+                flex-wrap: wrap !important;
+                text-align: center;
+            }
+        }
+        &-footer{
+            padding-bottom: 40px;
+        }
+    }
+
+    .testimonials{
+        padding: 80px 0px;
+        &-left{
+            margin-left: 0px;
+            margin-top: 0px;
+            &-header{
+                h3{
+                    font-size: 1.8rem;
+                    padding-bottom: 14px;
+                }
+                h5{
+                    padding-bottom: 15px;
+                }
+            }
+            &-card{
+                padding: 55px 20px;
+                box-shadow: 0 5px 10px 0 rgba(10,10,10,.05);
+                
+                &-text{
+                    padding: 0 15px 0 15px;
+                    p{
+                        font-size: 1.0625rem;
+                        color: #4a4c4c;
+                        padding: 15px 0;
+                    }
+                    h6{
+                        font-size: 1.15625rem;
+                        color: #4a4c4c;
+                        font-weight: 700;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        &-right{
+            &-card-top{
+                width: 100%;
+            }
+        }
+    }
+    
+
+    .footer{
+        &-bottom{
+            &-left{
+                text-align: center !important;
+                padding-bottom: 15px ;
+            }
+            &-right{
+                text-align: center !important;
+            }
+        }
+    }
+
+    .sticky {
+        .navbar {
+            padding: 20px 0 !important;
+        }
+    }
+}
+@include sm{
+    .banner {
+        .navbar {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .container-fluid {
+                line-height: 0px;
+
+                .navbar-brand {
+                    width: 32%;
+                    max-height: 40px;
+                }
+            }
+        }
+        &-text{
+            padding: 40px 0 70px 0;
+            h3{
+                font-size: 1.8rem;
+            }
+            h6{
+                padding-bottom: 8px;
+            }
+        }
+        
+    }
+    
+    .about{
+        &-text{
+            h5{
+                font-size: 0.975rem;
+            }
+            h3{
+                font-size: 1.8rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+            button{
+                font-size: 18px;
+                padding: 8px 25px;
+            }
+        }
+        &-footer{
+            width: 100%;
+            p{
+                font-size: 1.125rem;
+            }
+        }
+    }
+
+    .features{
+        text-align: center;
+        &-icon{
+            img{
+                width: 18%;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .choose{
+        &-heading{
+            width: 80%;
+        }
+        h5{
+            font-size: 1rem;
+        }
+        h3{
+            font-size: 1.8rem;
+        }
+        &-card{
+            margin: 60px 0 40px 0;
+            &-inner{
+                padding: 40px 25px !important;
+                img{
+                    padding-bottom: 15px;
+                    width: 18% !important;
+                }
+                flex-wrap: wrap !important;
+                text-align: center;
+            }
+        }
+        &-footer{
+            padding-bottom: 40px;
+        }
+    }
+
+    .testimonials{
+        padding: 80px 0px;
+        &-left{
+            margin-left: 0px;
+            margin-top: 0px;
+            &-header{
+                h3{
+                    font-size: 1.8rem;
+                    padding-bottom: 14px;
+                }
+                h5{
+                    padding-bottom: 15px;
+                }
+            }
+            &-card{
+                padding: 55px 20px;
+                box-shadow: 0 5px 10px 0 rgba(10,10,10,.05);
+                
+                &-text{
+                    padding: 0 15px 0 15px;
+                    p{
+                        font-size: 1.0625rem;
+                        color: #4a4c4c;
+                        padding: 15px 0;
+                    }
+                    h6{
+                        font-size: 1.15625rem;
+                        color: #4a4c4c;
+                        font-weight: 700;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        &-right{
+            &-card-top{
+                width: 100%;
+            }
+        }
+    }
+    
+
+    .footer{
+        &-bottom{
+            &-left{
+                text-align: center !important;
+                padding-bottom: 15px ;
+            }
+            &-right{
+                justify-content: center !important;
+            }
+        }
+    }
+
+    .sticky {
+        .navbar {
+            padding: 25px 0 !important;
+        }
+    }
+}
+@include md{
+    .banner {
+        .navbar {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .container-fluid {
+                line-height: 0px;
+
+                .navbar-brand {
+                    width: 28%;
+                    max-height: 40px;
+                }
+            }
+        }
+        &-text{
+            padding: 40px 0 70px 0;
+            h3{
+                font-size: 2.3rem;
+            }
+            h6{
+                padding-bottom: 8px;
+            }
+        }
+    }
+    
+    .about{
+        &-text{
+            h5{
+                font-size: 0.975rem;
+            }
+            h3{
+                font-size: 1.8rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+            button{
+                font-size: 18px;
+                padding: 8px 25px;
+            }
+        }
+        &-footer{
+            width: 100%;
+            p{
+                font-size: 1.125rem;
+            }
+        }
+    }
+
+    .features{
+        &-text{
+            text-align: center;
+        }
+        &-icon{
+            text-align: center;
+            img{
+                width: 30%;
+            }
+        }
+    }
+
+    .choose{
+        &-heading{
+            width: 80%;
+        }
+        h5{
+            font-size: 1rem;
+        }
+        h3{
+            font-size: 1.8rem;
+        }
+        &-card{
+            margin: 60px 0 40px 0;
+            &-inner{
+                padding: 40px 25px !important;
+                img{
+                    padding-bottom: 15px;
+                    width: 18% !important;
+                }
+                flex-wrap: wrap !important;
+                text-align: center;
+            }
+        }
+        &-footer{
+            padding-bottom: 40px;
+        }
+    }
+
+    .testimonials{
+        padding: 80px 0px;
+        &-left{
+            margin-left: 0px;
+            margin-top: 0px;
+            &-header{
+                h3{
+                    font-size: 1.8rem;
+                    padding-bottom: 14px;
+                }
+                h5{
+                    padding-bottom: 15px;
+                }
+            }
+            &-card{
+                padding: 55px 20px;
+                box-shadow: 0 5px 10px 0 rgba(10,10,10,.05);
+                
+                &-text{
+                    padding: 0 15px 0 15px;
+                    p{
+                        font-size: 1.0625rem;
+                        color: #4a4c4c;
+                        padding: 15px 0;
+                    }
+                    h6{
+                        font-size: 1.15625rem;
+                        color: #4a4c4c;
+                        font-weight: 700;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        &-right{
+            &-card-top{
+                width: 100%;
+            }
+        }
+    }
+    
+
+    .footer{
+        &-bottom{
+            &-left{
+                text-align: center !important;
+                padding-bottom: 15px ;
+            }
+            &-right{
+                justify-content: center !important;
+            }
+        }
+    }
+
+    .sticky {
+        .navbar {
+            padding: 25px 0 !important;
+        }
+    }
+}
+@include lg{
+    .banner {
+        .navbar {
+            padding: 30px 15px !important;
+
+            .container-fluid {
+                line-height: 0px;
+
+                .navbar-brand {
+                    width: 17%;
+                }
+            }
+        }
+        &-text{
+            padding: 50px 0 100px 0;
+            h3{
+                font-size: 2.8rem;
+            }
+            h6{
+                padding-bottom: 8px;
+            }
+        }
+    }
+    
+    .about{
+        &-text{
+            h5{
+                font-size: 1rem;
+            }
+            h3{
+                font-size: 2.33rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+            button{
+                font-size: 18px;
+                padding: 8px 25px;
+            }
+        }
+        &-footer{
+            width: 70%;
+            p{
+                font-size: 1.125rem;
+            }
+        }
+    }
+
+    .choose{
+        &-heading{
+            width: 80%;
+        }
+        h5{
+            font-size: 1rem;
+        }
+        h3{
+            font-size: 1.8rem;
+        }
+        &-card{
+            margin: 60px 0 40px 0;
+            &-inner{
+                padding: 40px 25px !important;
+                img{
+                    padding-bottom: 15px;
+                    width: 18% !important;
+                }
+                flex-wrap: wrap !important;
+                text-align: center;
+            }
+        }
+        &-footer{
+            padding-bottom: 40px;
+        }
+    }
+
+    .testimonials{
+        padding: 80px 0px;
+        &-left{
+            &-header{
+                h3{
+                    font-size: 1.8rem;
+                    padding-bottom: 14px;
+                }
+                h5{
+                    padding-bottom: 15px;
+                }
+            }
+            &-card{
+                padding: 55px 20px;
+                box-shadow: 0 5px 10px 0 rgba(10,10,10,.05);
+                
+                &-text{
+                    padding: 0 15px 0 15px;
+                    p{
+                        font-size: 1.0625rem;
+                        color: #4a4c4c;
+                        padding: 15px 0;
+                    }
+                    h6{
+                        font-size: 1.15625rem;
+                        color: #4a4c4c;
+                        font-weight: 700;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        &-right{
+            &-card-top{
+                width: 80%;
+            }
+        }
+    }
+    
+
+    .sticky {
+        .navbar {
+            padding: 25px 0 !important;
+        }
+    }
+
+}
+@include xl{
+    .banner {
+        .navbar {
+            padding: 30px 0px !important;
+
+            .container-fluid {
+                line-height: 0px;
+
+                .navbar-brand {
+                    width: 17%;
+                }
+            }
+        }
+        &-text{
+            padding: 60px 0 120px 0;
+            h3{
+                font-size: 3.125rem;
+            }
+            h6{
+                padding-bottom: 12px;
+            }
+        }
+    } 
+
+    .sticky {
+        .navbar {
+            padding: 25px 0 !important;
+        }
+    }
+}
